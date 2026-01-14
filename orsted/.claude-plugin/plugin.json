@@ -1,0 +1,11 @@
+{
+  "name": "orsted",
+  "description": "Auto-updating CLAUDE.md — learns from every session, keeps full record of everything done",
+  "version": "1.0.0",
+  "author": {
+    "name": "Orsted"
+  },
+  "repository": "https://github.com/yourusername/orsted",
+  "license": "MIT",
+  "keywords": ["memory", "context", "learning", "auto-update"]
+}

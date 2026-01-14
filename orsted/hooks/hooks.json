@@ -1,0 +1,25 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Read",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path' 2>/dev/null | grep -q 'CONTEXT.md' && echo '🐉 Loading context...' || true"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '🐉 Learning...' && ${CLAUDE_PLUGIN_ROOT}/scripts/update.sh &"
+          }
+        ]
+      }
+    ]
+  }
+}
