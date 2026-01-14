@@ -1,5 +1,8 @@
 {
   "name": "orsted-marketplace",
+  "owner": {
+    "name": "Nathan Simon"
+  },
   "description": "Orsted - auto-learning CLAUDE.md",
   "plugins": [
     {
