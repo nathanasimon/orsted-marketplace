@@ -1,0 +1,20 @@
+# Claude Code Plugin Installation Commands
+# Copy and paste these into Claude Code's chat interface
+
+# 1. Remove marketplace (if exists)
+/plugin marketplace remove orsted-marketplace
+
+# 2. Uninstall plugin (if exists)  
+/plugin uninstall orsted@orsted-marketplace
+
+# 3. Add marketplace
+/plugin marketplace add nathanasimon/orsted-marketplace
+
+# 4. Install plugin
+/plugin install orsted@orsted-marketplace
+
+# 5. Verify (check Installed tab)
+/plugin
+
+# 6. Test command
+/orsted:status
