@@ -6,9 +6,6 @@
     "name": "Nathan Simon"
   },
   "homepage": "https://github.com/nathansimon/orsted-marketplace",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nathansimon/orsted-marketplace.git"
-  },
+  "repository": "https://github.com/nathansimon/orsted-marketplace.git",
   "license": "MIT"
 }
