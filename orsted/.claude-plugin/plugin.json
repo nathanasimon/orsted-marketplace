@@ -1,11 +1,14 @@
 {
   "name": "orsted",
-  "description": "Auto-updating CLAUDE.md — learns from every session, keeps full record of everything done",
+  "description": "CLAUDE.md that learns from every session. Automatically keeps a full record of everything Claude does — what was done, why, what failed, what decisions were made. Every session makes Claude smarter.",
   "version": "1.0.0",
   "author": {
-    "name": "Orsted"
+    "name": "Nathan Simon"
   },
-  "repository": "https://github.com/yourusername/orsted",
-  "license": "MIT",
-  "keywords": ["memory", "context", "learning", "auto-update"]
+  "homepage": "https://github.com/nathansimon/orsted-marketplace",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathansimon/orsted-marketplace.git"
+  },
+  "license": "MIT"
 }
